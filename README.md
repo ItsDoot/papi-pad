@@ -12,3 +12,7 @@ To pad it with 1 space on the right, use `%pad_right_player_name%`.
 
 To pad it with multiple spaces, you can chain it like so: `%pad_left_pad_left_player_name%`.
 This will pad the player's name with 2 spaces on the left.
+
+## Installation
+
+See https://github.com/ItsDoot/papi-pad/releases
