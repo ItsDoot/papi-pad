@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'pw.dotdash'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots"
+    }
+    maven {
+        url = "https://repo.extendedclip.com/content/repositories/placeholderapi/"
+    }
+}
+
+dependencies {
+    compileOnly "org.bukkit:bukkit:1.13.2-R0.1-SNAPSHOT"
+    compileOnly "me.clip:placeholderapi:2.10.6"
+}
